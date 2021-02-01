@@ -51,7 +51,7 @@ Click on Create Bucket
 - Choose Nodejs-curd-app-with-dynamodb.zip>Open>Upload
 - Nodejs-curd-app-with-dynamodb.zip is uploaded to S3
 
-# End of Lab
+### End of Lab
 
 # Deploy CRUD App on Single EC2 - Lab
 
@@ -119,7 +119,7 @@ $ npm start
 **Step 14.Now Goto AWS Console>DynamoDB>Tables**
 - Refresh and see Table is deleted.
 
-# End of Lab
+### End of Lab
 
 
 # Manage Postman Environments - Lab
@@ -215,7 +215,7 @@ Click on Send
 **Step 21.Now Goto AWS Console>DynamoDB>Tables**
 - Refresh and see Table is deleted.
 
-# End of lab
+### End of lab
 
 
 # Deploy CRUD App on EC2 Fleet with Auto Scaling- Lab
@@ -352,7 +352,7 @@ Click on Update
 **Step 28.Now Goto AWS Console>DynamoDB>Tables**
 - Refresh and see Table is deleted.
 
-# End of Lab
+### End of Lab
 
 
 
@@ -489,7 +489,7 @@ Click on Update
 - In Custom TCP | 3000 - Select Source as "Security group of ALB"
 - Now Traffic will be served only to ALB's DNS only and not for individual instance
 
-# End of Lab
+### End of Lab
 
 # Deploy CRUD App on Elastic Beanstalk : Part 1 - Lab
 
@@ -536,7 +536,7 @@ $ cat eb-engine.log
 **Step 6. Goto Ec2>Target groups>awseb-xxx>Group details**
 - Port open for 80
 
-# End of lab
+### End of lab
 
 
 # Deploy CRUD App on Elastic Beanstalk : Part 2 - Lab
@@ -645,7 +645,7 @@ $ ls
 **Step 21.Now Goto AWS Console>DynamoDB>Tables**
 - Refresh and see Table is deleted.
 
-# End of Lab
+### End of Lab
 
 # Section Clean-up - Lab
 
@@ -661,7 +661,7 @@ $ ls
 **Step 4. AWS Management Console>EC2 Dashboard>Load Balancing>Target groups>tg-crud>Actions>Delete**
 - Click on Yes,Delete 
 
-# End of lab
+### End of lab
 
 
 
