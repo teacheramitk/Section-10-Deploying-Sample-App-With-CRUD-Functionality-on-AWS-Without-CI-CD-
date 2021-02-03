@@ -22,7 +22,7 @@ Click on Create
 
 **Step 4.Go back to Step 1 and type following commands**
 ```sh
-$ git remote add origin https://git-commit.ap.south-1.amazonaws.com/v1/repos/crud-app**
+$ git remote add origin https://git-commit.ap.south-1.amazonaws.com/v1/repos/crud-app
 $ cat .git/config 
 # see entry in config file
 $ git status
@@ -282,9 +282,11 @@ Scaling policies - None
 Click on Next
 
 **Step 10.Add Notifications**
+
 Click on Next
 
 **Step 11.Add Tags**
+
 Click on Next
 
 **Step 12. Review and Click on Create Auto Scaling group**
@@ -371,6 +373,7 @@ Click on Update
 Click on Update
 
 **Step 2.Goto Ec2>Target Groups>Create Target Group**
+
 In Basic configuration:-
 - Choose Target - Select Instances
 - Target group name - "tg-crud"
@@ -516,6 +519,7 @@ Click on Create App
 - Click on CrudApp-env to check the environment
 
 **Step 3. Goto Ec2Dashboard>CrudApp-env Instance>Actions>Connect>Connect**
+
 Run the following commands:
 ```sh
 $ cd /var/app/current
